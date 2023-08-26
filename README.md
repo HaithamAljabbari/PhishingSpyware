@@ -11,7 +11,7 @@ The EV3 Medium motor is the first motor that the robots can use to drive its att
 
 
 
-Our servomotor is a rotary actuator or linear actuator that allows for precise control of angular or linear position, velocity and acceleration. It consists of a suitable motor coupled to a sensor for positon feedback.
+Our servomotor is a module for rotary actuator or linear actuator that allows for precise control of angular or linear position, velocity and acceleration. It consists of a suitable motor coupled to a sensor for positon feedback.
 
 ![SERVO](https://user-images.githubusercontent.com/101916087/235341557-77cccdea-9d87-4324-8b55-59c7aa7b43cf.jpeg)
 
