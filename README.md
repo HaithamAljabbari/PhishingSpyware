@@ -66,7 +66,7 @@ In the Gamma robot, there is a motor driver responsible for the controlling of t
 To process color detections, the robot incorporates a PI camera, which captures visual input. This information is then sent to the servo motor, enabling it to modify the angle and alter the robot's direction accordingly.
 The servo motor is positioned beneath the PI camera within the robot's base, granting it control over the adjustment of the two front wheels. In terms of the physical layout, the motor driver is situated at the rear of the robot's base. It operates the EV3 medium motor, which is responsible for controlling the steering wheels, propelling the robot forward. We have chosen the EV3 medium motor because it's minimal size allows us to place it in the robot without the need ot enlarge the robot's design. We placed in the back of the robot where the differential gears are at, so that it can control the speed of the vehicle. We have chosen the servo motor because it allows use to steer the vehicle. We have put on the front if the vehicle behind the PI camera in order to steer the vehicle. We placed the PI camera at the front of the vehicle where the servo motor is behind it so that we can visualize what's in front of us. We also installed the raspberry pi 4 that is responsible for the processing of the input data coming from the modules installed on the Gamma robot. The raspberry pi also contains a powerbank. It powers up the raspberry pi which in turn powers the robot as a whole.
 The robot contains two lithium ion batterys with each voltage of 3.7V and the model-number of the GAMMA robot is MT3608.
-
+The Gamma robot knows how to drive around the vehicle.
 
 
 
