@@ -60,7 +60,7 @@ Once the process is complete, you can send G-code to the printer to generate phy
 
 We designed a 3D printed part for our PI camera because there are no LEGO parts that can be integrated with the PI camera. The PI camera is placed inside the part that is being held by other LEGO parts for the robot to see the obstacles in its way. 
 
-<h1>The workings of the robot</h1>
+<h1>The workings of the Gamma robot</h1>
 
 In the Gamma robot, there is a motor driver responsible for the controlling of the movement of two steering wheels, enabling the robot to navigate. Additionally, a servo motor is utilized to adjust the angle, allowing the robot to drive in specific directions and avoid obstacles.
 To process color detections, the robot incorporates a PI camera, which captures visual input. This information is then sent to the servo motor, enabling it to modify the angle and alter the robot's direction accordingly.
