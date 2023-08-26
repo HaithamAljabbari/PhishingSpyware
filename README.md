@@ -68,7 +68,7 @@ The servo motor is positioned beneath the PI camera within the robot's base, gra
 The robot contains two lithium ion batterys with each voltage of 3.7V and the model-number of the GAMMA robot is MT3608.
 The Gamma robot knows how to drive around the vehicle. The robot has the servo motor which allows the steering of the vehicle.
 the robot has the powerbank which has the output of five volts. the robot has the ability to go around the obstacle round and open challenge.
-The lithium ion batterys are used to power to the raspberry PI.
+The lithium ion batterys are used to power to the raspberry PI. We use the DC to DC to make the voltage go up to nine volts.
 
 
 
